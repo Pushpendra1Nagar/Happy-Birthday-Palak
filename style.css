@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #a18cd1, #fbc2eb, #ff9a9e);
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    color: #6a1b9a; /* Lavender */
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .wish {
+    font-size: 1.5rem;
+    color: #4a148c; /* Dark Lavender */
+    animation: slideIn 1.5s ease-in-out;
+  }
+  
+  /* Button Styles */
+  #surpriseButton {
+    background-color: #6a1b9a; /* Lavender */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #surpriseButton:hover {
+    background-color: #4a148c; /* Dark Lavender */
+  }
+  
+  /* Photo Gallery Styles */
+  #photoGallery {
+    display: none;
+    margin-top: 30px;
+  }
+  
+  #photoGallery.animated {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    animation: zoomIn 1s ease-in-out;
+  }
+  
+  .photo {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .photo:hover {
+    transform: scale(1.1);
+  }
+  .memory4{
+    width: 1200px;
+    height: auto;
+  }
+  
+  /* Friendship Cards Styles */
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .card h2 {
+    color: #6a1b9a; /* Lavender */
+  }
+  
+  .card p {
+    color: #555;
+  }
+  
